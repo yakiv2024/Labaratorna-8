@@ -1,0 +1,14 @@
+try:
+    with open("TF15_1.txt", "w") as f1:
+        f1.write("wow Python in programing, the best level.")
+
+    print("File TF15_1.txt created")
+except:
+    print("Unable  write to TF15_1.txt")
+
+try:
+    with open("TF15_1.txt", "r") as f1:
+       text = f1.read()
+except:
+    print("Unable to open TF15_1.txt for reading")
+    text = ""
