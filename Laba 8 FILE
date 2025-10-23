@@ -13,3 +13,11 @@ try:
 except:
     print("Unable to open 1 Question Levadnuy.txt for reading")
     text = ""
+# Відповіль студента Тахтай Назарій 
+try:
+    with open("2 Question Tahtai Nazar.txt", "w") as f1:
+        f1.write("Tahtai Nazar\n")
+        f1.write("Hi! You need to pass 8 labs in Python.\n")
+    print("2 Question Tahtai Nazar.txt created")
+except:
+    print("Unable  write to 2 Question Tahtai Nazar.txt")
