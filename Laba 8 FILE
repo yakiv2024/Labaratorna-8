@@ -1,14 +1,15 @@
 try:
-    with open("TF15_1.txt", "w") as f1:
-        f1.write("wow Python in programing, the best level.")
+    with open("1 Question Levadnuy.txt", "w") as f1:
+        f1.write("Levadnuy Yakiv\n")
+        f1.write("What lab work was due yesterday?\n")
 
-    print("File TF15_1.txt created")
+    print("1 Question Levadnuy.txt created")
 except:
-    print("Unable  write to TF15_1.txt")
+    print("Unable  write to 1 Question Levadnuy.txt")
 
 try:
-    with open("TF15_1.txt", "r") as f1:
+    with open("1 Question Levadnuy.txt", "r") as f1:
        text = f1.read()
 except:
-    print("Unable to open TF15_1.txt for reading")
+    print("Unable to open 1 Question Levadnuy.txt for reading")
     text = ""
