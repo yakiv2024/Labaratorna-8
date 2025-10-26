@@ -18,6 +18,7 @@ try:
     with open("2 Question Tahtai Nazar.txt", "w") as f1:
         f1.write("Tahtai Nazar\n")
         f1.write("Hi! You need to pass 8 labs in Python.\n")
+        f1.write("How are you doing?\n")
     print("2 Question Tahtai Nazar.txt created")
 except:
     print("Unable  write to 2 Question Tahtai Nazar.txt")
