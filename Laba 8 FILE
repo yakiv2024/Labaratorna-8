@@ -14,7 +14,7 @@ try:
 except:
     print("Unable to open 1 Question Levadnuy.txt for reading")
     text = ""
-# Відповідь студента Тахтай Назарій 
+# Відповідь студента Тахтай Назарій. Задано питання до наступного студента 
 try:
     with open("2 Question Tahtai Nazar.txt", "w") as f1:
         f1.write("Tahtai Nazar\n")
