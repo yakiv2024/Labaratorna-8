@@ -1,3 +1,4 @@
+# Початок програми. Питання для другого студента від Левадного Якова.
 try:
     with open("1 Question Levadnuy.txt", "w") as f1:
         f1.write("Levadnuy Yakiv\n")
