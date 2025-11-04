@@ -1,19 +1,17 @@
 # Початок програми. Питання для другого студента від Левадного Якова.
-try:
-    with open("1 Question Levadnuy.txt", "w") as f1:
-        f1.write("Levadnuy Yakiv\n")
-        f1.write("What lab work was due yesterday?\n")
+try: # спробуємо виконати наступний блок коду
+    with open("Laba_8.txt", "w", encoding="utf-8") as f1: # виконуємо з файлом певні дії та закриваємо його
+        # запис інформації до файлу
+        f1.write("Студент: Левадний Яків\n")
 
-    print("1 Question Levadnuy.txt created")
-except:
-    print("Unable  write to 1 Question Levadnuy.txt")
+        f1.write("Питання: Що робить менеджер контексту with у Python "
+                 "при роботі з файлами?\n")
 
-try:
-    with open("1 Question Levadnuy.txt", "r") as f1:
-       text = f1.read()
-except:
-    print("Unable to open 1 Question Levadnuy.txt for reading")
-    text = ""
+except Exception as e: # якщо виникла помилка при спробі виконати блок коду try
+    print("Виникла помилка: ", e)
+
+else: # якщо блок коду try успішно виконано
+    print("Файл Laba_8.txt створено")
 # Відповідь студента Тахтай Назарій. Задано питання до наступного студента 
 try:
     with open("2 Question Tahtai Nazar.txt", "w") as f1:
